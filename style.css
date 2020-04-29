@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFEAD4;
+    overflow-x: hidden;
+}
+
+.container-header {
+    width: 100vw;
+}
+
+.lett-header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 10%;
+    fill: transparent;
+    animation: lett-preenchimento .5s ease-in-out forwards 3.5s;
+}
+
+.lett-header path {
+    stroke-width: 5px;
+    stroke: #BE253F;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: lett-stroke 5s ease-in-out forwards 1s;
+}
+
+@keyframes lett-preenchimento {
+    to {
+        fill: #BE253F;
+    }
+}
+
+@keyframes lett-stroke {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
