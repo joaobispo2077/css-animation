@@ -67,6 +67,22 @@ p {
     background: #333333;
 }
 
+.container-footer {
+    position: relative;
+}
+
+.lett-footer {
+    width: 60%;
+    display: block;
+    margin: auto;
+    fill: #fff;
+    opacity: .5;
+    position: absolute;
+    left: 20%;
+    margin-top: 20%;
+    margin-bottom: 0;
+}
+
 @keyframes lett-preenchimento {
     to {
         fill: #BE253F;
