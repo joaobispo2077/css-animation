@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FFEAD4;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .container-header {
@@ -61,6 +61,10 @@ p {
     width: 50%;
     padding: 20px;
     margin: 40px;
+}
+
+.card-preto {
+    background: #333333;
 }
 
 @keyframes lett-preenchimento {
